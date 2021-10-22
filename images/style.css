@@ -1,0 +1,5 @@
+
+body { background-color:#FF8000; padding:0;  margin: 0; }
+.header { text-align:left; }
+#container_main { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:182px; background-color:#FFFFFF; background-image: url(playstation_3_and_wii_icon.jpg); background-position:top left; background-size:cover;  }
+#container_main_padding { margin: 10px; display: block;  }
