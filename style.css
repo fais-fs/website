@@ -1,0 +1,84 @@
+/* navigation buttons style */
+a { color:#5D5D9E; } 
+a:visited { color:#5D5D9E; } 
+a:active { color:#5C615E; } 
+a:hover { color:#B2B3B4; } 
+
+#button_About { vertical-align: bottom; position:relative; display: inline-block; width:150px; height:40px; background-color:#FFFFFF;  }
+#button_About:hover { background-color:#C0C0C0;  }
+#button_About:hover span { color:#525252; }
+
+#button_services { vertical-align: bottom; position:relative; display: inline-block; width:150px; height:40px; background-color:#FFFFFF;  }
+#button_services:hover { background-color:#C0C0C0;  }
+#button_services:hover span { color:#525252; }
+
+#button_contact { vertical-align: bottom; position:relative; display: inline-block; width:150px; height:40px; background-color:#FFFFFF;  }
+#button_contact:hover { background-color:#C0C0C0;  }
+#button_contact:hover span { color:#525252; }
+
+/* body style */
+body { background-color:#FF8000; padding:0;  margin: 0; }
+
+.ts1 { text-align:left; }
+
+#ch { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:150px; background-color:#FFFFFF; background-image: url(images/playstation_3_and_wii_icon.jpg); background-position:top left; background-size:cover;  }
+#ch_padding { margin: 10px; display: block;  }
+#container_repair { vertical-align: top; position:relative; display: inline-block; width:50%; min-height:150px; background:none;  }
+#container_repair_padding { margin: 10px; display: block;  }
+.ts2 { font-size:26pt; font-family:Arial, Helvetica, sans-serif; color:#FF8000; font-weight:bold;  }
+.ts3 { font-size:26pt; font-family:Arial, Helvetica, sans-serif; color:#FF8000; font-weight:bold; text-decoration:underline;  }
+.ts4 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#FF8000; text-decoration:underline;  }
+.ts5 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000;  }
+.ts6 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#FF8000;  }
+#container_call { vertical-align: top; position:relative; display: inline-block; width:50%; min-height:150px; background:none;  }
+#container_call_padding { margin: 10px; display: block;  }
+.ts7 { text-align:right; }
+.ts8 { font-size:16pt; font-family:Arial, Helvetica, sans-serif; color:#FF8000; font-weight:bold;  }
+.ts9 { font-size:16pt; font-family:Arial, Helvetica, sans-serif; color:#000000; font-weight:bold;  }
+#container_nav { box-sizing: border-box; vertical-align: top; position:relative; display: inline-block; width:100%; background-color:#FFFFFF; border-top: 1px solid #FFA925; border-left: none; border-right: none; border-bottom: none;  }
+.ts10 { text-align:center; }
+.Button1 { display: table; width: 100%; height: 100%; }
+.Button2 { display: table-cell; vertical-align: middle; }
+.ts11 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#000000; font-weight:bold;  }
+#cb { vertical-align: top; position:relative; display: inline-block; width:100%; min-height:409px; max-width:1200px; background-color:#FFFFFF;  }
+#cb_padding { margin: 20px; display: block;  }
+.ts12 { font-size:22pt; font-family:Arial, Helvetica, sans-serif; color:#000040; font-weight:bold;  }
+#cb1 { vertical-align: top; position:relative; display: inline-block; width:87%; min-height:266px; background-color:#FF8000;  }
+#cb1_padding { margin: 10px; display: block;  }
+#cb2 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
+#cb2_padding { margin: 10px; display: block;  }
+#img_1b58f060 { vertical-align: bottom; position:relative; display: inline-block; width:100%; background:none;  }
+.ts13 { font-size:12pt; font-family:Arial, Helvetica, sans-serif; color:#000000; font-weight:bold;  }
+#cb3 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
+#cb3_padding { margin: 10px; display: block;  }
+#img_4b20ee87 { vertical-align: bottom; position:relative; display: inline-block; width:100%; background:none;  }
+#cb4 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
+#cb4_padding { margin: 10px; display: block;  }
+#img_673ad8a3 { vertical-align: bottom; position:relative; display: inline-block; width:100%; background:none;  }
+#cb5 { vertical-align: top; position:relative; display: inline-block; width:99%; min-height:250px; max-width:1200px; background-color:#FF8000;  }
+#cb5_padding { margin: 20px; display: block;  }
+.ts14 { font-size:12pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#000000;  }
+#container_footer { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
+#container_footer_padding { margin: 10px; display: block;  }
+#container_footer1 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
+#container_footer1_padding { margin: 10px; display: block;  }
+.ts15 { font-size:40pt; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif; color:#000000;  }
+#container_footer2 { vertical-align: top; position:relative; display: inline-block; width:33%; min-height:150px; background:none;  }
+#container_footer2_padding { margin: 10px; display: block;  }
+@media only screen and (max-width: 600px)
+{
+		#cb2 { width:100%;  }
+		#cb3 { width:100%;  }
+		#cb4 { width:100%;  }
+}
+@media only screen and (max-width: 450px)
+{
+		#container_footer { width:100%;  }
+		#container_footer1 { width:100%;  }
+		#container_footer2 { width:100%;  }
+}
+@media only screen and (max-width: 2px)
+{
+		#container_repair { width:100%;  }
+		#container_call { width:100%;  }
+}

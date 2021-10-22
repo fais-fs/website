@@ -1,0 +1,38 @@
+.flex-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-end;
+  }
+  
+.body{background-color: #FF8000;
+display: flex;
+text-align: center;
+align-content: center;
+text-justify: auto;}
+.menu-bar {
+    background-color: #FF8000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  
+  .item {
+    color: rgb(29, 7, 92);
+    background-color: transparent;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    
+  }
+  
+  .item.title {
+    font-weight: 600;
+  }
+  
+  .item:hover {
+    background-color: rgba(247, 117, 10, 0.959);
+  }
